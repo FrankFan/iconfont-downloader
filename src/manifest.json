@@ -1,0 +1,24 @@
+{
+   "background": "background.html",
+   "browser_action": {
+      "default_icon": "icon/128.png",
+      "default_popup": "popup.html"
+   },
+   "author":"FrankFan",
+   "name": "iconfont downloader",
+   "homepage_url": "http://www.fy98.com",
+   "description": "iconfont downloader",
+   "icons": {
+      "16": "icon/16.png",
+      "48": "icon/48.png",
+      "128": "icon/128.png"
+   },
+   "manifest_version": 2,
+   "permissions": ["contextMenus", "tabs"],
+   "content_scripts": [{
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/jquery.min.js", "js/main.js"]
+   }],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

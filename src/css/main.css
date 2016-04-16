@@ -1,0 +1,14 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.container{
+    width: 450px;
+    height: 350px;
+    backround: #999;
+}
