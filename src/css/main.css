@@ -1,14 +1,41 @@
-body, ul, li {
-    margin: 0;
-    padding: 0;
+body {
+	width: 220px;
+	overflow-x: hidden;
+	background-color: #EEF3F0;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	padding: 10px;
 }
 
-ul, ol{
-    list-style: none;
+hr {
+  margin: 40px 0 10px 0;
 }
 
-.container{
-    width: 450px;
-    height: 350px;
-    backround: #999;
+a {
+  color: #22C3AA;
+  outline: none;
+}
+
+#enableBtn {
+  background-color: #DB6968;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+#enableBtn:hover {
+  background-color: #BB5A59;
+}
+
+#enableBtn.enabled {
+  background-color: #22C3AA;
+}
+
+#enableBtn.enabled:hover {
+  background-color: #157A6B;
 }

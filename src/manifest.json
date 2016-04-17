@@ -14,7 +14,7 @@
       "128": "icon/128.png"
    },
    "manifest_version": 2,
-   "permissions": ["contextMenus", "tabs"],
+   "permissions": ["tabs"],
    "content_scripts": [{
       "matches": ["http://*/*", "https://*/*"],
       "js": ["js/main.js"],
