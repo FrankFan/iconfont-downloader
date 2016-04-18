@@ -39,13 +39,7 @@ var iconfontDownloader = (function() {
 })();
 
 
-
-// $(function(){
-    // $('ibtn c-apply-btn btn-apply').click(iconfontDownloader.checkAllIcons);
-// });
-
 document.addEventListener("DOMContentLoaded", function() {
-    console.log('here I am');
     if (iconfontDownloader.isIconfontWeb()) {
         iconfontDownloader.createNewElement();
         var btnCheckAllIcons = document.getElementsByClassName('ibtn c-apply-btn btn-apply checkAllIcons')[0];
@@ -53,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
             iconfontDownloader.checkAllIcons();
         });
     } else {
-        console.log('不在iconfont.cn中');
+        // console.log('不在iconfont.cn中');
     }
-    
+
 }, false);
