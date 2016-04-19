@@ -15,7 +15,7 @@ iconfont downloader
 
 ### screenshot
 
-todo
+![](./docs/screenshot.gif)
 
 
 ### install
