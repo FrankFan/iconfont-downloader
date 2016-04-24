@@ -11,10 +11,27 @@ var iconfontDownloader = (function() {
     }
 
     var checkAllIcons = function() {
-        Array.from(document.querySelectorAll('.font-lists li div.iconfont:not(.selected)'))
+        var timeId;
+
+        var arrIcons = document.querySelectorAll('.font-lists li div.iconfont:not(.selected)');
+        Array.from(arrIcons)
              .forEach(function(e, index) {
-                e.click();
+                timeId = setInterval((function(index) {
+                    console.log('处理第' + (index + 1) + '个');
+
+                    e.click();
+
+                    if (index === (arrIcons.length - 1)) {
+                        console.log('清除timeId = ' + timeId)
+                        clearInterval(timeId);
+                    };
+                })(index), 2000);
              });
+
+        console.log('timeId = ' + timeId);
+
+
+
     }
 
     var unCheckAllIcons = function() {
