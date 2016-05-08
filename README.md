@@ -9,7 +9,7 @@ iconfont downloader
 
 - 3.click `一键全选N个` button then all the icons'll be checked into cart.
 
-- 4.check the nunmber on the navbar is as the same as number on the button, if not, go to step 2.
+- 4.check the number on the navbar whether as the same as number on the button, if not, go to step 2.
 
 
 
