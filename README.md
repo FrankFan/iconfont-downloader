@@ -23,6 +23,10 @@ iconfont downloader
 [Download On Chrome Webstore](https://chrome.google.com/webstore/detail/iconfont-downloader/nihpihaidfananojmddpligkjciahmei?hl=zh-CN)
 
 
+### pack
+```bash
+$ gulp # build static files to dist dir
+```
 
 
 
