@@ -40,8 +40,9 @@ var iconfontDownloader = (function() {
         tid = setInterval(function() {
             var wrapper = document.getElementsByClassName('wrapper');
             var iconsView = document.getElementById('J_manage_icons_view');
+            var countWrapper = document.getElementsByClassName('uploads-top');
 
-            if (wrapper && wrapper.length > 0 && iconsView) {
+            if (wrapper && wrapper.length > 0 && iconsView && countWrapper && countWrapper.length > 0) {
                 console.log('DOM 加载完毕!');
                 iconfontDownloader.createNewElement();
                 var btnCheckAllIcons = document.querySelectorAll('.nav-container:last-child')[0];
