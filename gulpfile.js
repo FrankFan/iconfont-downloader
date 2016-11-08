@@ -1,9 +1,7 @@
 var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
 var htmlmin = require('gulp-htmlmin');
-var copydir = require('copy-dir');
 var del  = require('del');
-var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
