@@ -12,10 +12,13 @@ iconfont downloader
 - 4.check the number on the navbar whether as the same as number on the button, if not, go to step 2.
 
 
+### screenshot v1
 
-### screenshot
+![](./docs/screenshot_v1.gif)
 
-![](./docs/screenshot.gif)
+### screenshot v2
+
+![](./docs/screenshot_v2.gif)
 
 
 ### install
